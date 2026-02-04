@@ -1,0 +1,17 @@
+.header{
+  
+    background-color: white;
+    height: 50px;
+    width: 25%;
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    border: 1px solid white;
+
+
+}
