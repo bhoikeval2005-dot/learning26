@@ -23,6 +23,10 @@ import { UseStateDemo1 } from './components/UseStateDemo1';
 import { UseStateDemo2 } from './components/UseStateDemo2';
 import { UseStateDemo3 } from './components/UseStateDemo3.JSX';
 import { Employees } from './components/Employees';
+import { CardComponent } from './components/CardComponent';
+import { InputDemo1 } from './components/input/InputDemo1';
+import { InputDemo2 } from './components/input/InputDemo2';
+import { FormDemo1 } from './components/form/FormDemo1';
 
 
 // import './App.css'
@@ -46,6 +50,9 @@ function App() {
         <Route path="/UseStateDemo2" element ={<UseStateDemo2/>}></Route>
         <Route path="/UseStateDemo3" element ={<UseStateDemo3/>}></Route>
         <Route path="/employees" element ={<Employees/>}></Route>
+        <Route path="inputdemo1"element={<InputDemo1/>}></Route>
+        <Route path="inputdemo2"element={<InputDemo2/>}></Route>
+        <Route path="formdemo1" element={<FormDemo1/>}></Route>
       </Routes>
     </div>
      );
