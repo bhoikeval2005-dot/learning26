@@ -53,7 +53,7 @@ export const ApiDemo1 = () => {
             </thead>
             <tbody>
               {users.slice(0, limit).map((user) => (
-                <tr key={user.id || user.email}> {/* Use unique key */}
+                <tr key={user.id || user.email}> 
                   <td>{user.name}</td>
                   <td>{user.email}</td>
                   <td>{user.password}</td>
